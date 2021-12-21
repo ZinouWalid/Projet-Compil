@@ -1,0 +1,86 @@
+#menuu,#lmenu{
+    -fx-fill: white;
+    -fx-font-size: 16;
+
+}
+#litem{
+    -fx-fill: white;
+    -fx-font-size: 14;
+    -fx-background-color:transparent;
+    -fx-width:100%;
+}
+#myPane{
+  -fx-background-image:url('https://th.bing.com/th/id/R.79e345f1f253870254ccb0c5acfe8275?rik=4%2bFBET6NjyfezQ&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2fe%2f2%2ff%2f149583.jpg&ehk=betNXGqitiJHk5M9j%2bMoYZPaXPQdXuk2%2bdSESHFnD88%3d&risl=&pid=ImgRaw&r=0') ;
+
+  -fx-background-size: 100% 100%;
+  -fx-object-fit: cover;
+  -fx-background-repeat:no-repeat;
+
+}
+#codeArea .text{
+    -fx-fill: white;
+    -fx-font-size: 18;
+}
+#codeArea .keyword{
+    -fx-fill: #ffc909;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+#codeArea .comment{
+    -fx-fill: #000;
+}
+#codeArea .lineno{
+    -fx-background-color: #000000;
+}
+
+#codeArea {
+    -fx-background-color: rgba(12, 5, 26, 0.7);
+}
+#codeArea .brace{
+    -fx-fill: #02f8ff;
+}
+#codeArea .string{
+    -fx-fill: #ff854c;
+}
+.caret{
+    -fx-stroke: white;
+}
+.menuBar{
+    -fx-border-radius: 5px;
+    -fx-color:white;
+    -fx-padding: 5px;
+     -fx-background-color: rgba(0, 0, 45, 0.83);
+}
+
+#lmenu{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0);
+
+}
+#bPane{
+    -fx-effect: dropshadow( one-pass-box , yellow , 8 , 0.0 , 2 , 0);
+    -fx-border-radius: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+}
+#litem{
+    -fx-text-fill: cyan;
+    -fx-font-weight:bold;
+}
+.menu-item{
+    -fx-background-color: rgba(0, 0, 45, 0.83);
+}
+.tableColumn.table-cell{
+    -fx-font-size: 18;
+}
+#textArea{
+
+}
+.text-area .content{
+    -fx-background-color: rgb(22, 10, 37);
+}
+.text-area{
+    -fx-text-fill: white;
+    -fx-font-size: 18;
+}
